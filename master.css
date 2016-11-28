@@ -1,0 +1,30 @@
+@import url(reset.css);
+/*color pallette*/
+* {
+  color: #878286; }
+
+body {
+  background-color: #383738; }
+
+#main-header {
+  text-align: center;
+  border-bottom: 2px solid #444543; }
+  #main-header h1 {
+    font-size: 4em; }
+  #main-header ul {
+    display: flex;
+    justify-content: space-around; }
+    #main-header ul li {
+      line-height: 9em;
+      height: 6em;
+      width: 6em;
+      margin: 2em 0 1em 0;
+      background-color: #444543;
+      border-radius: 50%; }
+
+#main-div {
+  display: block;
+  width: 65vw;
+  margin: auto; }
+
+/*# sourceMappingURL=master.css.map */

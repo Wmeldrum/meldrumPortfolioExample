@@ -1,0 +1,46 @@
+/*color pallette*/
+
+$background: #383738;
+$highlight: #444543;
+$text: #878286;
+
+
+* {
+  color: $text;
+
+}
+body {
+  background-color: $background;
+
+}
+
+#main-header {
+  text-align: center;
+  border-bottom: 2px solid $highlight;
+  h1 {
+    font-size: 4em;
+  }
+
+  ul {
+    display: flex;
+    justify-content: space-around;
+      li {
+          line-height: 9em;
+          height: 6em;
+          width: 6em;
+          margin: 2em 0 1em 0;
+          background-color: $highlight;
+          border-radius: 50%;
+
+
+      }
+
+  }
+}
+
+#main-div {
+  display: block;
+  width: 65vw;
+  margin: auto;
+
+}
