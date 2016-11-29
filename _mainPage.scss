@@ -1,6 +1,6 @@
 /*color pallette*/
-
 $background: #383738;
+$lowlight: #0F100A;
 $highlight: #444543;
 $text: #878286;
 
@@ -10,29 +10,55 @@ $text: #878286;
 
 }
 body {
-  background-color: $background;
-
+  //background-color: $background;//
+  background: linear-gradient(90deg, $lowlight, $background, $lowlight);
 }
 
 #main-header {
+  position: relative;
   text-align: center;
   border-bottom: 2px solid $highlight;
   h1 {
     font-size: 4em;
   }
+  #logo {
+    display: block;
+    height: 25vh;
+    width: auto;
+    left: 0;
+
+    padding-bottom: 2vh;
+  }
+  .nav-images {
+    width: 60%;
+    height: 80%;
+    margin-top: 2vh;
+
+  }
+  #joystick {
+   margin-top: 1vh;
+   height: 60%;
+   width: 80%;
+  }
 
   ul {
     display: flex;
     justify-content: space-around;
-      li {
+      .nav-label {
+        font-family: "Quicksand", sans-serif;
+        font-weight: bolder;
+        font-size: 2em;
+        opacity: 0;
+      }
+
+      .nav-button {
           line-height: 9em;
           height: 6em;
           width: 6em;
-          margin: 2em 0 1em 0;
+          margin: 0em 0 1em 0;
           background-color: $highlight;
           border-radius: 50%;
-
-
+          overflow: hidden;
       }
 
   }
@@ -44,3 +70,9 @@ body {
   margin: auto;
 
 }
+/*
+iframe {
+  width: 65vw;
+  height: 36.56vw;
+}
+*/
