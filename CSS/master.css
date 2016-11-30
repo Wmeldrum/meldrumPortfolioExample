@@ -55,5 +55,22 @@ iframe {
   height: 36.56vw;
 }
 */
+.article-wrapper {
+  border-bottom: 1px dotted #444543; }
+  .article-wrapper .article-post {
+    display: block;
+    min-height: 10vh; }
+    .article-wrapper .article-post .article-title {
+      font-size: 1.5em;
+      padding-bottom: 2vh; }
+    .article-wrapper .article-post .article-info {
+      font-weight: 100; }
+
+.article-thumbnail {
+  position: relative; }
+  .article-thumbnail img {
+    height: 7vh;
+    float: right;
+    margin-top: .8vh; }
 
 /*# sourceMappingURL=master.css.map */

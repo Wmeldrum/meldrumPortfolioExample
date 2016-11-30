@@ -1,0 +1,32 @@
+
+.article-wrapper {
+  border-bottom: 1px dotted $highlight;
+
+.article-post {
+  display: block;
+  min-height: 10vh;
+
+  .article-title {
+    font-size: 1.5em;
+    padding-bottom: 2vh;
+  }
+
+  .article-info {
+    font-weight: 100;
+  }
+}
+
+
+}
+
+.article-thumbnail {
+      position: relative;
+  img {
+
+      height: 7vh;
+    float: right;
+    margin-top: .8vh;
+  }
+
+
+}
