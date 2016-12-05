@@ -1,0 +1,53 @@
+div {
+  border: 1px solid red;
+}
+
+.article-wrapper {
+  border-bottom: 1px dotted $highlight;
+  display: block;
+  position: relative;
+    margin-bottom: 3vh;
+
+.article-post {
+  display: inline-block;
+  min-height: 10vh;
+  max-width: 49vw;
+  padding-right: 5vw;
+  vertical-align: top;
+  
+
+
+  .article-title {
+    font-size: 1.5em;
+
+  }
+
+  .article-info {
+    font-weight: 100;
+  }
+}
+
+
+}
+
+.thumbnail-container {
+  width: 15vw;
+  display: inline-block;
+  position: relative;
+
+
+
+
+      .thumbnail {
+        width: 100%;
+
+
+
+
+
+      }
+
+
+
+
+}
