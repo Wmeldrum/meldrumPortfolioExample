@@ -1,0 +1,12 @@
+@media screen and (max-width: 720px) {
+  #main-div {
+    width: 100vw;
+  }
+  #logo {
+    margin: 10px auto 10px auto;
+  }
+}
+
+@media screen and (max-width: 996px) {
+  $main-width: 80vw;
+}

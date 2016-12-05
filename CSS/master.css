@@ -1,6 +1,12 @@
 @import url(reset.css);
 @import url("https://fonts.googleapis.com/css?family=Quicksand");
 @import url(animate.css);
+@media screen and (max-width: 720px) {
+  #main-div {
+    width: 100vw; }
+
+  #logo {
+    margin: 10px auto 10px auto; } }
 /*color pallette*/
 * {
   color: #878286; }
@@ -18,7 +24,6 @@ body {
     display: block;
     height: 25vh;
     width: auto;
-    left: 0;
     padding-bottom: 2vh; }
   #main-header .nav-images {
     width: 60%;
@@ -47,7 +52,8 @@ body {
 #main-div {
   display: block;
   width: 65vw;
-  margin: auto; }
+  margin: auto;
+  min-width: 300px; }
 
 /*
 iframe {
@@ -55,22 +61,30 @@ iframe {
   height: 36.56vw;
 }
 */
+div {
+  border: 1px solid red; }
+
 .article-wrapper {
-  border-bottom: 1px dotted #444543; }
+  border-bottom: 1px dotted #444543;
+  display: block;
+  position: relative;
+  margin-bottom: 3vh; }
   .article-wrapper .article-post {
-    display: block;
-    min-height: 10vh; }
+    display: inline-block;
+    min-height: 10vh;
+    max-width: 49vw;
+    padding-right: 5vw;
+    vertical-align: top; }
     .article-wrapper .article-post .article-title {
-      font-size: 1.5em;
-      padding-bottom: 2vh; }
+      font-size: 1.5em; }
     .article-wrapper .article-post .article-info {
       font-weight: 100; }
 
-.article-thumbnail {
+.thumbnail-container {
+  width: 15vw;
+  display: inline-block;
   position: relative; }
-  .article-thumbnail img {
-    height: 7vh;
-    float: right;
-    margin-top: .8vh; }
+  .thumbnail-container .thumbnail {
+    width: 100%; }
 
 /*# sourceMappingURL=master.css.map */
