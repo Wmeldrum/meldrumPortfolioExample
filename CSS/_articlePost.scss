@@ -1,9 +1,9 @@
 div {
-  border: 1px solid red;
+  //border: 1px solid red;
 }
 
 .article-wrapper {
-  border-bottom: 1px dotted $highlight;
+  border-bottom: 1px dashed $highlight;
   display: block;
   position: relative;
     margin-bottom: 3vh;
@@ -11,10 +11,10 @@ div {
 .article-post {
   display: inline-block;
   min-height: 10vh;
-  max-width: 49vw;
+  max-width: 45vw;
   padding-right: 5vw;
   vertical-align: top;
-  
+
 
 
   .article-title {
@@ -31,15 +31,19 @@ div {
 }
 
 .thumbnail-container {
-  width: 15vw;
+
   display: inline-block;
   position: relative;
+  width: 19vw;
+  height: auto;
+  margin-top: 5px;
 
 
 
 
       .thumbnail {
         width: 100%;
+
 
 
 

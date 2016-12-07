@@ -10,6 +10,9 @@ $main-width: 65vw;
   color: $text;
 
 }
+height, body {
+  height: 100%;
+}
 body {
   //background-color: $background;//
   background: linear-gradient(90deg, $lowlight, $background, $lowlight);
@@ -66,6 +69,7 @@ body {
 
 #main-div {
   display: block;
+  position: relative;
   width: $main-width;
   margin: auto;
   min-width: 300px;
