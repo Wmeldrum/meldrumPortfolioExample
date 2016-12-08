@@ -1,15 +1,17 @@
-* {
-  font-family: Arial;
-}
 @import "reset.css";
 @import "_scssFunctions.scss";
-
 @import url("https://fonts.googleapis.com/css?family=Quicksand");
 @import url('https://fonts.googleapis.com/css?family=Fjalla+One');
 @import "animate.css";
-@import "_mainPage.scss";
-@import "_community.scss";
 @import "_textStyling.scss";
-@import "_responsiveiframe.scss";
-@import "_articlePost.scss";
 @import "_queries.scss";
+
+
+#logo {
+
+  float: left;
+}
+.main-header {
+  display: flex;
+  justify-content: space-around;
+}

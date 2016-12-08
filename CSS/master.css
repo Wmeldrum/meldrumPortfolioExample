@@ -2,6 +2,10 @@
 @import url("https://fonts.googleapis.com/css?family=Quicksand");
 @import url("https://fonts.googleapis.com/css?family=Fjalla+One");
 @import url(animate.css);
+@import url(reset.css);
+@import url("https://fonts.googleapis.com/css?family=Quicksand");
+@import url("https://fonts.googleapis.com/css?family=Fjalla+One");
+@import url(animate.css);
 * {
   font-family: Arial; }
 
@@ -41,7 +45,9 @@ body {
       font-family: "Fjalla One", sans-serif;
       font-weight: bolder;
       font-size: 2em;
-      line-height: 2em; }
+      line-height: 2em;
+      text-align: center;
+      min-width: 6em; }
     #main-header ul .nav-button {
       line-height: 9em;
       height: 6em;
@@ -51,7 +57,7 @@ body {
       border-radius: 50%;
       overflow: hidden; }
 
-#main-div {
+.main-div {
   display: block;
   position: relative;
   width: 65vw;
@@ -100,10 +106,78 @@ h6 {
   color: #a09c9f;
   font-weight: 700; }
 
-.video-container {
+@media screen and (max-width: 720px) {
+  #main-div {
+    width: 100vw; }
+
+  #logo {
+    margin: 10px auto 10px auto; } }
+@media screen and (max-width: 800px) {
+  .thumbnail-container {
+    display: block;
+    width: 100%; }
+
+  .article-wrapper .article-post {
+    max-width: none;
+    padding-right: 0;
+    padding-bottom: 1em; } }
+#logo {
+  float: left; }
+
+.main-header {
+  display: flex;
+  justify-content: space-around; }
+
+* {
+  font-family: sans-serif; }
+
+a {
+  text-decoration: none; }
+
+/*heading stylings*/
+h1, h2, h3, h4, h5 {
+  font-family: "Fjalla One", serif;
+  line-height: 1.2em; }
+
+h1 {
+  font-size: 2em; }
+
+h2 {
+  font-size: 1.5em; }
+
+h3 {
+  font-size: 1.17em; }
+
+h4 {
+  font-size: 1.12em; }
+
+h5 {
+  font-size: .83em; }
+
+h6 {
+  font-size: .75em; }
+
+.article-title {
+  text-decoration: underline; }
+
+.read-more {
+  color: #a09c9f;
+  font-weight: 700; }
+
+.iframe-video-container {
   position: relative;
   width: 100%;
   padding-bottom: 56.25%;
+  padding-top: 35px;
+  height: 0;
+  overflow: hidden;
+  box-shadow: 0px 0px 16px 3px rgba(0, 0, 0, 0.63);
+  margin: 5vw auto 5vw auto; }
+
+.iframe-map-container {
+  position: relative;
+  width: 100%;
+  padding-bottom: 75%;
   padding-top: 35px;
   height: 0;
   overflow: hidden;
