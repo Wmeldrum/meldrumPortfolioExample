@@ -1,0 +1,3 @@
+@function percentOf($parentWidth, $percentage) {
+  @return ($parentWidth * $percentage);
+}

@@ -1,0 +1,25 @@
+@media screen and (max-width: 720px) {
+  #main-div {
+    width: 100vw;
+  }
+  #logo {
+    margin: 10px auto 10px auto;
+  }
+}
+
+@media screen and (max-width: 996px) {
+  $main-width: 80vw;
+}
+ @media screen and (max-width: 800px) {
+   .thumbnail-container {
+     display: block;
+     width: 100%;
+
+   }
+   .article-wrapper .article-post {
+     max-width: none;
+     padding-right: 0;
+     padding-bottom: 1em;
+
+   }
+ }

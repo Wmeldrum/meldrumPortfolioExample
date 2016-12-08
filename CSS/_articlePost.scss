@@ -1,0 +1,57 @@
+div {
+  //border: 1px solid red;
+}
+
+.article-wrapper {
+  border-bottom: 1px dashed $highlight;
+  display: block;
+  position: relative;
+    margin-bottom: 3vh;
+
+.article-post {
+  display: inline-block;
+  min-height: 10vh;
+  max-width: 45vw;
+  padding-right: 5vw;
+  vertical-align: top;
+
+
+
+  .article-title {
+    font-size: 1.5em;
+
+  }
+
+  .article-info {
+    font-weight: 100;
+  }
+}
+
+
+}
+
+.thumbnail-container {
+
+  display: inline-block;
+  position: relative;
+  width: 19vw;
+  height: auto;
+  margin-top: 5px;
+
+
+
+
+      .thumbnail {
+        width: 100%;
+
+
+
+
+
+
+      }
+
+
+
+
+}
