@@ -3275,3 +3275,31 @@ Copyright (c) 2015 Daniel Eden
   -webkit-animation-name: slideOutUp;
   animation-name: slideOutUp;
 }
+//WM custom animations
+@keyframes buttonSpin {
+  90% {
+  transform: rotate(360deg);
+}
+
+  100% {
+  transform: rotate(450deg);
+}
+}
+
+@-webkit-keyframes buttonSpin {
+  90% {
+  -webkit-tramsform: rotate(360deg);
+  transform: rotate(360deg);
+
+}
+100% {
+  -webkit-transform: rotate(450deg);
+  transform: rotate(450deg);
+}
+}
+
+.buttonSpin {
+  -webkit-animation-name: buttonSpin;
+  animation-name: buttonSpin;
+
+}

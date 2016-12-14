@@ -14,7 +14,8 @@
   color: #878286; }
 
 height, body {
-  height: 100%; }
+  height: 100%;
+  width: 100%; }
 
 body {
   background: linear-gradient(90deg, #0F100A, #383738, #0F100A); }
@@ -211,10 +212,30 @@ iframe {
   display: inline-block;
   position: relative;
   width: 19vw;
-  height: auto;
-  margin-top: 5px; }
+  height: 11vw;
+  margin-top: 5px;
+  overflow: hidden; }
   .thumbnail-container .thumbnail {
-    width: 100%; }
+    width: 100%;
+    height: 100%; }
+  .thumbnail-container .thumbnail-skirt {
+    display: table;
+    position: absolute;
+    top: 65%;
+    left: 0;
+    height: 35%;
+    width: 101%;
+    background-color: rgba(0, 0, 0, 0.5);
+    z-index: 1; }
+    .thumbnail-container .thumbnail-skirt h3 {
+      display: table-cell;
+      vertical-align: middle; }
+    .thumbnail-container .thumbnail-skirt .play-button {
+      position: absolute;
+      top: 0;
+      right: 0;
+      max-width: 20%;
+      padding: 5px; }
 
 @media screen and (max-width: 720px) {
   #main-div {
