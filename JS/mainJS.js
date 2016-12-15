@@ -1,5 +1,5 @@
 console.log("I'm working!");
-$(".play-button").addClass("animated buttonSpin");
+
 
 
 
