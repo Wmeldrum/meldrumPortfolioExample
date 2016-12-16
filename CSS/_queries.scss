@@ -12,8 +12,9 @@
 }
  @media screen and (max-width: 800px) {
    .thumbnail-container {
-     display: block;
-     width: 100%;
+     
+     float: left;
+
 
    }
    .article-wrapper .article-post {

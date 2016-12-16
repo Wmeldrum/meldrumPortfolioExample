@@ -115,8 +115,7 @@ h6 {
     margin: 10px auto 10px auto; } }
 @media screen and (max-width: 800px) {
   .thumbnail-container {
-    display: block;
-    width: 100%; }
+    float: left; }
 
   .article-wrapper .article-post {
     max-width: none;
@@ -239,7 +238,10 @@ iframe {
       top: 0;
       right: 0;
       max-width: 20%;
-      padding: 5px; }
+      padding: 5px;
+      animation: buttonSpinReverse; }
+    .thumbnail-container .thumbnail-skirt .play-button.no-animation {
+      animation: none; }
 
 @media screen and (max-width: 720px) {
   #main-div {
@@ -249,8 +251,7 @@ iframe {
     margin: 10px auto 10px auto; } }
 @media screen and (max-width: 800px) {
   .thumbnail-container {
-    display: block;
-    width: 100%; }
+    float: left; }
 
   .article-wrapper .article-post {
     max-width: none;

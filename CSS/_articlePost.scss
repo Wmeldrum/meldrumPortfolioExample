@@ -67,13 +67,16 @@ div {
           display: table-cell;
           vertical-align: middle;
       }
-
       .play-button {
         position:absolute;
         top: 0;
         right: 0;
         max-width: 20%;
         padding: 5px;
+        animation: buttonSpinReverse;
+      }
+      .play-button.no-animation {
+        animation: none;
       }
 
     }

@@ -3303,3 +3303,12 @@ Copyright (c) 2015 Daniel Eden
   animation-name: buttonSpin;
 
 }
+
+@keyframes buttonSpinReverse {
+  10% {
+  transform: rotate(-90deg);
+  }
+  100% {
+  transform: rotate(-360deg);
+}
+}

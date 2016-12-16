@@ -3,6 +3,7 @@ $background: #383738;
 $lowlight: #0F100A;
 $highlight: #444543;
 $text: #878286;
+$text-light: scale-color($text, $lightness: 30%);
 $main-width: 65vw;
 
 
