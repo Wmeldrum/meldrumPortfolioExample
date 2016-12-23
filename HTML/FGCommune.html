@@ -3,12 +3,15 @@
   <title>FGCommune</title>
   <meta charset="utf-8">
   <link rel="stylesheet" type="text/css" href="../CSS/master.css">
+  <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+  <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.7/angular.min.js"></script>
+
 
 </head>
 
 <body>
 
-<div class="main-div">
+<div class="main-div" ng-controller="articlesController as articlesCtrl">
   <header id="main-header">
 
     <img id="logo" src="../img/FGClogo.png">
@@ -59,90 +62,18 @@
     </div>
 
 
-    <div class="article-wrapper">
-
-      <div class="article-post">
-
-        <h2 class="article-title"><a href="http://www.ign.com/"><a href="#">
-          Capcom Cup 2016 Results: Watch the Riveting Grand Finals to see who walks away
-          with $230k</a></h2>
-        <br> <br>
-
-        <h4 class="article-info">
-
-        published by William Meldrum -- <time class="timeago" datetime="2016-12-04T20:01:39+00:00"></time></h4>
-        <br>
-        <p class="article-desc">
-          With players like Daigo Umehara and RZR|Infiltration not even making it out
-          of the tournament's first round... <nobr><a class="read-more" href="#">read more →</a></nobr>
-        </p>
-
-
-
-
-        </div>
-
-
-
-        <div class="thumbnail-container">
-            <a href="http://www.ign.com">
-              <img class="thumbnail" src="../img/Thumbnails/Capcom-Cup-2016.jpg">
-            </a>
-        </div>
-
-
-    </div>
-
-  <div id="article2" class="article-wrapper">
-    <div class="media-container">
-    </div>
-    <div class="article-post">
-
-      <h2 class="article-title"><a href="http://www.ign.com/"><abbr title="Next Level Battle Circuit">NLBC</abbr>
-      Tournament: Battles Fought, Sticks Thrown</a></h2>
-      <br> <br>
-
-      <h4 class="article-info">
-
-      published by William Meldrum -- <time class="timeago" datetime="2016-12-02T20:01:39+00:00"></time></h4>
-      <br>
-      <p class="article-desc">
-        We've all had our moments. Renowned east coast player, AD Sanford Kelly (Sagat) faced off against
-        Mentos sponsored Rico Suave (Abel)... <nobr><a class="read-more" href="#">read more →</a></nobr>
-      </p>
-
-
-
-
-      </div>
-
-
-
-      <div class="thumbnail-container media ">
-          <a class="media-link" href="#">
-            <img class="thumbnail" src="../img/Thumbnails/sandfordVsRico.PNG">
-            <div class="thumbnail-skirt">
-              <h3 class="thumbnail-subtitle">Watch Moment</h3>
-            <img class="play-button no-animation" src="../img/Thumbnails/play_button.png">
-          </div>
-        </a>
-      </div>
-
-
-
-  </div>
+      <article-log></article-log>
 
 
 
   </div>
 
   <!--code-->
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
-  <script src="../JS/mainJS.js">
-  </script>
-  <script src ="../JS/timeago.js"></script>
-  <script src="../JS/scrollwhenvisible.js"></script>
-  <script src="../JS/mediaDisplay.js"></script>
+  <script type="text/javascript" src="../JS/app.js"></script>
+  <script type="text/javascript" src ="../JS/timeago.js"></script>
+  <script type="text/javascript" src="../JS/scrollwhenvisible.js"></script>
+  <script type="text/javascript" src="../JS/mediaDisplay.js"></script>
+
 
 </body>
 </html>
