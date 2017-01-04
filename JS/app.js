@@ -15,6 +15,13 @@
           }
         });
 
+        app.directive('myheader', function() {
+        return {
+          restrict: 'E',
+          templateUrl: '/../HTML/header.html',
+          replace: true
+            }
+          });
 
         var articles = [
             {
